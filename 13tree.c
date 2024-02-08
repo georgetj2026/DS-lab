@@ -28,9 +28,4 @@ for(i=1;i<=n;i++)
   printf("right child of %d =%d\n",a[pos],a[(pos*2)+1]);
 printf("do you want to continue y/n:\t");
 scanf("%s",&CH);
-}},a[ch*2]);
-  if((ch*2)+1>n)
-   printf("%d has no rightchild\n",a[ch]);
-   else
-  printf("right child of %d =%d\n",a[ch],a[(ch*2)+1]);
-}
+}}
